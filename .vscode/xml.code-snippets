@@ -1,0 +1,12 @@
+{
+  "change": {
+    "prefix": "change",
+    "body": ["<Change key=\"$1\" value=\"$2\" />"]
+  },
+  "condition": {
+    "prefix": "condition",
+    "body": [
+      "<Condition key=\"$1\" operator=\"${2|EQUAL,NOTEQUAL,SMALLERTHAN,GREATERTHAN,CONTAINS,NOTCONTAINS|}\" value=\"$3\" />"
+    ]
+  }
+}
