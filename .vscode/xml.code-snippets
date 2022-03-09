@@ -4,6 +4,7 @@
     "body": ["<Change key=\"$1\" value=\"$2\" />"]
   },
   "condition": {
+    "scope": "xml",
     "prefix": "condition",
     "body": [
       "<Condition key=\"$1\" operator=\"${2|EQUAL,NOTEQUAL,SMALLERTHAN,GREATERTHAN,CONTAINS,NOTCONTAINS|}\" value=\"$3\" />"
